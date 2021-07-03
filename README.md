@@ -17,6 +17,8 @@ testando a linguagem markdown pelo site do github
 
 linguagem de **marcação** e não de ~~programação~~ muito semelhante a *HTML* porém mais fácil de ler (readability)
 
+🖖
+
 ### lista numerada
 1. teste
    1. teste
@@ -32,4 +34,18 @@ linguagem de **marcação** e não de ~~programação~~ muito semelhante a *HTML
 ### lista de tarefas
 - [ ] finalizar curso git e github do Curso em Vídeo
 - [ ] iniciar Curso em Video JavaScript
-- [X] enviar priemira prova HC 
+- [X] enviar primeira prova HC 
+
+### tabelas
+
+num | nome | nota
+---|---|---|
+1 | aline | 10
+2 | Kyla | 0
+
+### comandos
+
+Vc pode demarcar trechos de programa ou comandos usando crases, exemplo: ```document.getElementByld()```
+
+
+
