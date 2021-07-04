@@ -11,41 +11,5 @@
 Inclui pastas para organizar melhor o que fiz no curso em vídeo de git github e o que estou vendo no treinamento hiring coders 21
 
 ---
-testando a linguagem markdown pelo site do github
 
-## Markdown
-
-linguagem de **marcação** e não de ~~programação~~ muito semelhante a *HTML* porém mais fácil de ler (readability)
-
-🖖
-
-### lista numerada
-1. teste
-   1. teste
-3. teste
-4. teste
-
-
-### lista demarcada
-* teste
-   * teste
-* teste
-
-### lista de tarefas
-- [ ] finalizar curso git e github do Curso em Vídeo
-- [ ] iniciar Curso em Video JavaScript
-- [X] enviar primeira prova HC 
-
-### tabelas
-
-num | nome | nota
----|---|---|
-1 | aline | 10
-2 | Kyla | 0
-
-### comandos
-
-Vc pode demarcar trechos de programa ou comandos usando crases, exemplo: ```document.getElementByld()```
-
-
-
+Reorganizando o repositório para separar as pastas de acordo com os módulos do treinamento
