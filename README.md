@@ -13,3 +13,7 @@ Inclui pastas para organizar melhor o que fiz no curso em vídeo de git github e
 ---
 
 Reorganizando o repositório para separar as pastas de acordo com os módulos do treinamento
+
+---
+
+Criada Branch para cursos e treinamentos a parte do HC 21 e outros materiais de apoio
