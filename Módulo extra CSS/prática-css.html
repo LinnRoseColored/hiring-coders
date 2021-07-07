@@ -8,7 +8,8 @@
     <title>ATV Prática - CSS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Teko&display=swap"
+        rel="stylesheet">
 
     <!--Fonte acrescentada via código fornecido no google fonts-->
 
@@ -19,10 +20,21 @@
     <style>
         header {
             font-family: 'Inconsolata', monospace;
+            font-weight: 500;
+            background-color: rgb(93, 57, 134);
+            color: #fff;
+        }
+
+        .card-container {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
 
         }
 
         .card-produto {
+            margin: 10px 0;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -36,7 +48,7 @@
 
         }
 
-        .price-produto{ 
+        .price-produto {
             font-weight: 800;
         }
 
@@ -47,12 +59,13 @@
             background-color: #fff;
             border: 1px solid black;
         }
-        .buy-button:hover{
+
+        .buy-button:hover {
             cursor: pointer;
             background-color: black;
             color: #fff;
         }
-        
+
         div {
             border: 1px solid black;
             width: 200px;
@@ -62,13 +75,68 @@
         img {
             width: 100px;
         }
+
+        @media (max-width: 700px) {
+            .buy-button {
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .card-produto {
+                flex-basis: 100%;
+            }
+
+            .description-produto {
+                display: none;
+            }
+        }
     </style>
 
 </head>
 
 
 <body>
-    <section>
+    <section class="card-container">
+        <div class="card-produto">
+            <h3 class="name-produto">Produto</h3>
+            <img src="Imagens/produto.png" alt="foto do produto">
+            <p class="description-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo odio eligendi
+                saepe repellendus possimus
+                expedita ipsa, sit ad explicabo fugiat cumque nesciunt, alias perferendis nisi molestias pariatur modi
+                ducimus soluta?</p>
+            <span class="price-produto">Preço R$0000,00</span>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card-produto">
+            <h3 class="name-produto">Produto</h3>
+            <img src="Imagens/produto.png" alt="foto do produto">
+            <p class="description-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo odio eligendi
+                saepe repellendus possimus
+                expedita ipsa, sit ad explicabo fugiat cumque nesciunt, alias perferendis nisi molestias pariatur modi
+                ducimus soluta?</p>
+            <span class="price-produto">Preço R$0000,00</span>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card-produto">
+            <h3 class="name-produto">Produto</h3>
+            <img src="Imagens/produto.png" alt="foto do produto">
+            <p class="description-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo odio eligendi
+                saepe repellendus possimus
+                expedita ipsa, sit ad explicabo fugiat cumque nesciunt, alias perferendis nisi molestias pariatur modi
+                ducimus soluta?</p>
+            <span class="price-produto">Preço R$0000,00</span>
+            <button class="buy-button">Comprar</button>
+        </div>
+        <div class="card-produto">
+            <h3 class="name-produto">Produto</h3>
+            <img src="Imagens/produto.png" alt="foto do produto">
+            <p class="description-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo odio eligendi
+                saepe repellendus possimus
+                expedita ipsa, sit ad explicabo fugiat cumque nesciunt, alias perferendis nisi molestias pariatur modi
+                ducimus soluta?</p>
+            <span class="price-produto">Preço R$0000,00</span>
+            <button class="buy-button">Comprar</button>
+        </div>
         <div class="card-produto">
             <h3 class="name-produto">Produto</h3>
             <img src="Imagens/produto.png" alt="foto do produto">
