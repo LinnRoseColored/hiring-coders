@@ -15,3 +15,7 @@ Reorganizando o repositório para separar as pastas de acordo com os módulos do
 ---
 
 Criada Branch para cursos e treinamentos a parte do HC 21 e outros materiais de apoio
+
+---
+
+Criada nova pasta para módulo 1 de JavaScript 
