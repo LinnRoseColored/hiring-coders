@@ -6,7 +6,7 @@
 // Se não for um número => Não é um número
 // Se não for divisivel nem por 3 nem por 5 => Entrada
 
-let resultado = fizzBuzz(4)
+let resultado = fizzBuzz()
 console.log(resultado)
 
 function fizzBuzz(entrada) {
