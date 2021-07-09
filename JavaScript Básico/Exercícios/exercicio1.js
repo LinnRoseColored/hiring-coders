@@ -6,3 +6,23 @@
 // Se não for um número => Não é um número
 // Se não for divisivel nem por 3 nem por 5 => Entrada
 
+let resultado = fizzBuzz(4)
+console.log(resultado)
+
+function fizzBuzz(entrada) {
+    if (typeof entrada !== 'number')
+        return 'Não é número'
+    if ((entrada % 3 === 0)&& (entrada % 5 === 0))
+        return 'FizzBuzz'
+    if (entrada % 3 === 0)
+        return 'Fizz'
+    if (entrada % 5 === 0)
+        return 'Buzz'
+    
+        return entrada;
+
+
+
+  
+
+}
