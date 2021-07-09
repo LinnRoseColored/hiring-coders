@@ -1,4 +1,4 @@
-console.log("Hello World!");
+console.log("Hello World");
 
 //Tipos de variáveis em JS
 // var; let; const
@@ -21,5 +21,11 @@ var students = [Aline, Vini, Guibs]
 function sum(a+b) {
     return a + b
 }
+//Funções são objetos que podem ser "chamados" ou dão um retorno
+
+// operadores aritiméticos
+
+var soma = 1 + 3
+console.log(soma)
 
 
